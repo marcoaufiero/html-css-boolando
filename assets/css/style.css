@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+img{
+    display: block;
+}
+
 /* utilities */
 
 .flex{
@@ -81,6 +85,18 @@ main{
     width: 100%;
 }
 
+.img2{
+    display: none;
+}
+
+.img-box:hover .img1{
+    display: none;
+}
+
+.img-box:hover .img2{
+    display: block;
+}
+
 .img-box .fa-heart{
     position: absolute;
     top: 10px;
@@ -88,6 +104,11 @@ main{
     font-size: 2rem;
     padding: 10px;
     background-color: white;
+}
+
+.fa-heart:hover{
+    color: red;
+    cursor: pointer;
 }
 
 .img-box .labels{

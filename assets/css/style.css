@@ -95,6 +95,7 @@ main{
     left: 0;
     bottom: 50px;
     color: white;
+    font-weight: 700;
 }
 
 .red-label{
@@ -118,4 +119,33 @@ main{
 
 .old-price{
     text-decoration: line-through;
+}
+
+/* footer */
+
+footer{
+    background-color: #1a1a1a;
+    width: 100vw;
+}
+
+footer *{
+    padding: 10px 5px;
+}
+
+footer a{
+    text-decoration: none;
+    font-size: 1.3rem;
+    color: white;
+}
+
+h2, h4{
+    color: white;
+}
+
+.socials{
+    text-align: center;
+}
+
+.footer-info a:hover{
+    text-decoration: underline;
 }
